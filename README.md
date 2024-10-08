@@ -1,5 +1,5 @@
 # Abacus 🧮
-Abacus is an innovative and intuitive investment portfolio management software designed for discerning investors seeking balance, clarity, and performance. Tailored to provide a seamless user experience, PortFolioZen combines advanced analytical tools with a serene interface, enabling users to achieve financial harmony. is an innovative and intuitive investment portfolio management software designed for discerning investors seeking balance.
+Abacus is an innovative and intuitive investment portfolio management software designed for discerning investors seeking balance, clarity, and performance. Tailored to provide a seamless user experience, Abacus combines advanced analytical tools with a serene interface, enabling users to achieve financial harmony. is an innovative and intuitive investment portfolio management software designed for discerning investors seeking balance.
 
 ## Features
 - Comprehensive Portfolio Tracking: Monitor your investments across multiple asset classes with real-time updates and detailed performance metrics.
