@@ -1,11 +1,13 @@
 import Link from "next/link";
+
 import { Button } from "./_components/ui/button";
+import SiteLogo from "./_components/site-logo";
 
 export default function Home() {
   return (
     <section className="max-w-screen-xl mx-auto px-4 pt-1 gap-12 text-gray-600 md:px-8">
       <nav className="flex items-center justify-between p-4 mb-10">
-        <h1 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-[#E114E5]">Abacus</h1>
+        <SiteLogo />
         <Button variant="secondary">
           <Link href="/login">
             Login
