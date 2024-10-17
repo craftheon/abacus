@@ -1,9 +1,19 @@
+import { redirect } from "next/navigation"
+import { getServerSession } from "next-auth"
+
 import { Card } from "@/app/_components/ui/card"
 import SiteLogo from "../_components/site-logo"
+import { authOptions } from "./api/auth/[...nextauth]/route"
 
-export default function AuthLayout(
+export default async function AuthLayout(
   { children }: { children: React.ReactNode }
 ) {
+  const session = await getServerSession(authOptions)
+
+  if (session) {
+    redirect('/dashboard')
+  }
+
   return (
     <main className="max-w-screen-xl mx-auto px-4 pt-1 gap-12">
       <nav className="flex items-center justify-between p-4 mb-10">

@@ -15,12 +15,12 @@ export default function Home() {
         </Button>
       </nav>
       <div className="space-y-5 max-w-4xl mx-auto text-center">
-        <h1 className="text-sm text-gray-900 font-medium">
+        <h2 className="text-sm text-gray-900 font-medium">
           Build products for everyone
-        </h1>
-        <h2 className="text-4xl text-gray-800 font-extrabold mx-auto md:text-5xl">
-          The all-in-one life management tool.
         </h2>
+        <h1 className="text-4xl text-gray-800 font-extrabold mx-auto md:text-5xl">
+          The all-in-one life management tool.
+        </h1>
         <p className="max-w-2xl mx-auto">
           Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
         </p>
