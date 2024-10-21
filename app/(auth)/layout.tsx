@@ -1,8 +1,8 @@
 import { redirect } from "next/navigation"
 import { getServerSession } from "next-auth"
 
-import { Card } from "@/app/_components/ui/card"
-import SiteLogo from "../_components/site-logo"
+import { Card } from "@/components/ui/card"
+import SiteLogo from "@/components/site-logo"
 import { authOptions } from "./api/auth/[...nextauth]/route"
 
 export default async function AuthLayout(

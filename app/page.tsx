@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-import { Button } from "./_components/ui/button";
-import SiteLogo from "./_components/site-logo";
+import { Button } from "@/components/ui/button";
+import SiteLogo from "@/components/site-logo";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           Build products for everyone
         </h2>
         <h1 className="text-4xl text-gray-800 font-extrabold mx-auto md:text-5xl">
-          The all-in-one life management tool.
+          The all-in-one wealth management tool.
         </h1>
         <p className="max-w-2xl mx-auto">
           Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
           <Button className="block py-2 px-4 text-white font-medium">
             <Link href="/signup">
-              Get started with Abacus
+              Get started with Wealthful
             </Link>
           </Button>
         </div>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { getServerSession } from 'next-auth'
 import { redirect } from 'next/navigation'
-import { Toaster } from "@/app/_components/ui/sonner"
+import { Toaster } from "@/components/ui/sonner"
 
 import { authOptions } from './(auth)/api/auth/[...nextauth]/route'
 import './globals.css'
@@ -9,8 +9,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Abacus - The all-in-one life management tool.',
-    template: `%s - Abacus`,
+    default: 'Wealthful - The all-in-one wealth management tool.',
+    template: `%s - Wealthful`,
   },
 }
 
